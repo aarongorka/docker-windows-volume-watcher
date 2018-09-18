@@ -1,0 +1,9 @@
+version: '2.0'
+services:
+  golang:
+    image: amaysim/golang:1.10.0-stretch 
+    volumes:
+      - .:/srv/app:Z
+    working_dir: /srv/app
+    entrypoint: ["go"]
+
