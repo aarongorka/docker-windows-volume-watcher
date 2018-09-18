@@ -4,6 +4,12 @@ Simple utility to get HMR working with WebPack inside containers running on Dock
 
 Inspired by [Mikhail Erofeev's Python tool](https://github.com/merofeev/docker-windows-volume-watcher)
 
+_Building_:
+
+`make build`
+
+Requires Docker.
+
 _Usage_:
 Run this tool in the root folder of your source.
 
